@@ -1,8 +1,4 @@
-<?php
-include 'inc/conn.php';
-include 'inc/form.php';
-include 'inc/getdata.php';
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
