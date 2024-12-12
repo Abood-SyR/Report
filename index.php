@@ -9,8 +9,9 @@ include 'inc/getdata.php';
     <link rel="stylesheet" href="styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تقديم شكاوي | سوريا</title>
+    <title>تقديم تقرير | سوريا</title>
 </head>
+
 <body>
     <div id="container">
     <div id="containerbody">
@@ -31,14 +32,15 @@ include 'inc/getdata.php';
         <select>
             <option value="">دمشق</option>
             <option value="">ريف دمشق</option>
+            <option value="">السويداء</option>
+            <option value="">درعا</option>
+            <option value="">حماة</option>
             <option value="">حمص</option>
             <option value="">حلب</option>
+            <option value="">ادلب</option>
             <option value="">اللاذقية</option>
             <option value="">طرطوس</option>
-            <option value="">السويداء</option>
             <option value="">ديرالزور</option>
-            <option value="">ادلب</option>
-            <option value="">درعا</option>
             <option value="">الرقة</option>
             <option value="">الحسكة</option>
         </select>
@@ -66,19 +68,14 @@ include 'inc/getdata.php';
 
         <div id="submit">
         <input type="submit" name="submit"  value="تقديم">
+        <a href=""><button>استعلام تقرير</button></a>
     </div>
     </form>
 </div>
-<p>Powred By Abdullrahman-Abdullah</p>
+<p><a href="https://wa.me/+963981082693"><span>عبدالرحمن عبدالله </span></a>  عمل تطوعي من قبل </p>
 </div>
 
-    <!-- <?php foreach($users as $user) : ?>
-    <?php echo htmlspecialchars($user['id']);  ?>
-    <?php echo htmlspecialchars($user['user_name']);  ?>
-    <?php echo htmlspecialchars($user['phone_number']);  ?>
-    <?php echo htmlspecialchars($user['report_log']);  ?>
-    <?php echo "<br>";?>
-    <?php endforeach ?> -->
+  
     
 </body>
 </html>
